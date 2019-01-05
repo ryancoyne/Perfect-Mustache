@@ -22,7 +22,7 @@ import PackageDescription
 let package = Package(name: "PerfectMustache", 
 	products: [.library(name: "PerfectMustache",targets: ["PerfectMustache"]),],
     dependencies: [
-		.package(url: "https://github.com/PerfectlySoft/Perfect-HTTP.git", from: "3.0.0"),
+		.package(url: "https://github.com/ryancoyne/Perfect-HTTP.git", from: "4.0.0"),
 	],
     targets: [
         .target(
