@@ -27,8 +27,11 @@ let package = Package(name: "PerfectMustache",
     targets: [
         .target(
             name: "PerfectMustache",
-            dependencies: ["PerfectHTTP"]),
+            dependencies: ["PerfectHTTP"],
+            path: "Sources/PerfectMustache"
+        ),
         .testTarget(
             name: "PerfectMustacheTests",
-            dependencies: ["PerfectMustache"]),
+            dependencies: ["PerfectMustache"]
+        ),
     ])
